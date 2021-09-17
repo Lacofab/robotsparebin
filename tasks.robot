@@ -129,6 +129,8 @@ Order robots from RobotSpareBin Industries Inc
     END
     Create a ZIP file of the receipts
     
+    [Teardown]  Close All Browsers
+    
     
     
 # -

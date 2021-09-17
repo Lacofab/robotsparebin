@@ -1,0 +1,16 @@
+{
+    "LegsInput": {
+        "screenshot": ".images\\input-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//div[3]/input"
+    },
+    "PopupButton": {
+        "screenshot": ".images\\button-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[contains(.,'OK')]"
+    }
+}

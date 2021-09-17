@@ -23,6 +23,7 @@ ${outputDirectory}=    ${CURDIR}${/}output
 
 *** Keywords ***
 Check Directories
+    Create Directory    ${outputDirectory}
     Create Directory    ${tmpDirectory}
     ${files}=    List files in directory    ${tmpDirectory}
     FOR    ${file}  IN  @{FILES}
